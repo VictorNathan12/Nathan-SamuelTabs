@@ -22,7 +22,7 @@ export default function TabLayout() {
       }}
     >
       <Tabs.Screen
-        name="index"
+        name="list"
         options={{
           title: "Lista 1",
           headerShown: false,
@@ -35,7 +35,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="list2"
         options={{
           title: "Lista 2",
           headerShown: false,
@@ -48,14 +48,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="list"
+        name="list3"
         options={{
           title: "Lista 3",
           headerShown: false,
           tabBarIcon: () => (
             <Image
               style={s.iconTab}
-              source={require("@/assets/images/Umidades.png")}
+              source={require("@/assets/images/Umidade.png")}
             />
           ),
         }}

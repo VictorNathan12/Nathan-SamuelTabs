@@ -3,7 +3,7 @@ import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function Home() {
   const Tabs = () => {
-    router.push("/(tabs)");
+    router.push("/(tabs)/list");
   };
 
   return (
@@ -46,13 +46,14 @@ const s = StyleSheet.create({
     shadowRadius: 2.62,
     elevation: 4,
     backgroundColor: "#006effc8",
-    width: 200,
+    width: "auto",
     height: 60,
     alignItems: "center",
     justifyContent: "center",
     borderColor: "#090909",
     borderRadius: 999,
     marginTop: 10,
+    paddingHorizontal: 30,
   },
   btnText: {
     color: "#ffffff",

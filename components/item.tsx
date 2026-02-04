@@ -25,7 +25,7 @@ const s = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     gap: 20,
-    backgroundColor: "#878787a5",
+    backgroundColor: "#ffffffa5",
     margin: 10,
     height: 80,
     paddingHorizontal: 10,
@@ -39,7 +39,7 @@ const s = StyleSheet.create({
     shadowRadius: 6.27,
     elevation: 10,
     borderWidth: 1,
-    borderColor: "#ffbf00",
+    borderColor: "#00a6ffe5",
   },
   imageStyle: {
     width: 75,
